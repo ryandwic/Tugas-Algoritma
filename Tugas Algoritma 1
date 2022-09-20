@@ -1,0 +1,14 @@
+# input untuk user
+greet = input('Greeting: ').strip().lower()
+
+# Jika ada kata "hallo" maka outputnya $0
+if 'hello' in greet:
+    print(f'$0')
+
+# jika karakter di tempat ke 0 adalah h maka nanti maka putputnya $20
+elif greet[0] == 'h':
+    print(f'$20')
+
+# menginput $100 jika ada kata selain di atas
+else:
+    print(f'$100')
